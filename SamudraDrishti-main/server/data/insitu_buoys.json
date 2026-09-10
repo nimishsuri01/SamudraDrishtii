@@ -1,0 +1,210 @@
+[
+  {
+    "id": "BUOY-AD01",
+    "name": "OMNI Deep Buoy AD01",
+    "type": "Moored Ocean Buoy (OMNI)",
+    "network": "INCOIS OMNI (Ocean Moored Buoy Network for Northern Indian Ocean)",
+    "lat": 15.0,
+    "lon": 69.0,
+    "sea_state": "Slight (Wave height 1.2m)",
+    "sst": 28.6,
+    "sss": 36.2,
+    "wind_speed_ms": 7.5,
+    "wind_dir_deg": 230,
+    "air_temp": 28.1,
+    "air_pressure_hpa": 1010.4,
+    "thermistor_chain": [
+      {
+        "depth": 1,
+        "temperature": 28.6
+      },
+      {
+        "depth": 10,
+        "temperature": 28.5
+      },
+      {
+        "depth": 20,
+        "temperature": 28.4
+      },
+      {
+        "depth": 50,
+        "temperature": 27.2
+      },
+      {
+        "depth": 75,
+        "temperature": 23.8
+      },
+      {
+        "depth": 100,
+        "temperature": 19.5
+      },
+      {
+        "depth": 150,
+        "temperature": 16.2
+      },
+      {
+        "depth": 200,
+        "temperature": 14.1
+      },
+      {
+        "depth": 300,
+        "temperature": 11.5
+      },
+      {
+        "depth": 500,
+        "temperature": 9.2
+      }
+    ]
+  },
+  {
+    "id": "BUOY-BD08",
+    "name": "OMNI Deep Buoy BD08",
+    "type": "Moored Ocean Buoy (OMNI)",
+    "network": "INCOIS OMNI",
+    "lat": 18.2,
+    "lon": 89.7,
+    "sea_state": "Moderate (Wave height 1.8m)",
+    "sst": 29.8,
+    "sss": 31.4,
+    "wind_speed_ms": 9.2,
+    "wind_dir_deg": 195,
+    "air_temp": 29.2,
+    "air_pressure_hpa": 1007.8,
+    "thermistor_chain": [
+      {
+        "depth": 1,
+        "temperature": 29.8
+      },
+      {
+        "depth": 10,
+        "temperature": 29.7
+      },
+      {
+        "depth": 20,
+        "temperature": 29.5
+      },
+      {
+        "depth": 50,
+        "temperature": 28.8
+      },
+      {
+        "depth": 75,
+        "temperature": 25.1
+      },
+      {
+        "depth": 100,
+        "temperature": 22.0
+      },
+      {
+        "depth": 150,
+        "temperature": 17.6
+      },
+      {
+        "depth": 200,
+        "temperature": 14.5
+      },
+      {
+        "depth": 300,
+        "temperature": 11.8
+      },
+      {
+        "depth": 500,
+        "temperature": 8.9
+      }
+    ]
+  },
+  {
+    "id": "BUOY-BD10",
+    "name": "OMNI Deep Buoy BD10",
+    "type": "Moored Ocean Buoy (OMNI)",
+    "network": "INCOIS OMNI",
+    "lat": 14.0,
+    "lon": 86.5,
+    "sea_state": "Slight (Wave height 1.4m)",
+    "sst": 29.3,
+    "sss": 33.5,
+    "wind_speed_ms": 6.8,
+    "wind_dir_deg": 210,
+    "air_temp": 28.9,
+    "air_pressure_hpa": 1009.2,
+    "thermistor_chain": [
+      {
+        "depth": 1,
+        "temperature": 29.3
+      },
+      {
+        "depth": 10,
+        "temperature": 29.2
+      },
+      {
+        "depth": 20,
+        "temperature": 29.0
+      },
+      {
+        "depth": 50,
+        "temperature": 28.4
+      },
+      {
+        "depth": 75,
+        "temperature": 24.2
+      },
+      {
+        "depth": 100,
+        "temperature": 20.8
+      },
+      {
+        "depth": 150,
+        "temperature": 16.9
+      },
+      {
+        "depth": 200,
+        "temperature": 14.0
+      },
+      {
+        "depth": 300,
+        "temperature": 11.4
+      },
+      {
+        "depth": 500,
+        "temperature": 8.8
+      }
+    ]
+  },
+  {
+    "id": "BUOY-CB02",
+    "name": "Coastal Buoy CB02 (Off Chennai)",
+    "type": "Coastal Buoy",
+    "network": "INCOIS Coastal Network",
+    "lat": 13.1,
+    "lon": 80.4,
+    "sea_state": "Calm (Wave height 0.8m)",
+    "sst": 29.5,
+    "sss": 33.2,
+    "wind_speed_ms": 5.2,
+    "wind_dir_deg": 180,
+    "air_temp": 29.4,
+    "air_pressure_hpa": 1011.0,
+    "thermistor_chain": [
+      {
+        "depth": 1,
+        "temperature": 29.5
+      },
+      {
+        "depth": 10,
+        "temperature": 29.3
+      },
+      {
+        "depth": 20,
+        "temperature": 28.8
+      },
+      {
+        "depth": 35,
+        "temperature": 27.5
+      },
+      {
+        "depth": 50,
+        "temperature": 26.2
+      }
+    ]
+  }
+]

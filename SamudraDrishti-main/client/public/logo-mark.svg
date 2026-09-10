@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Deep Navy Medallion Radial Gradient -->
+    <radialGradient id="cmpBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0c1d38"/>
+      <stop offset="70%" stop-color="#071326"/>
+      <stop offset="100%" stop-color="#030914"/>
+    </radialGradient>
+
+    <!-- Facet Gradients -->
+    <linearGradient id="facetWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+
+    <linearGradient id="facetAzure" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <linearGradient id="facetNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f294a"/>
+      <stop offset="100%" stop-color="#051528"/>
+    </linearGradient>
+
+    <linearGradient id="facetMid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#034d82"/>
+    </linearGradient>
+
+    <linearGradient id="cmpGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="45%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <linearGradient id="cmpBezel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="50%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <clipPath id="cmpClip">
+      <circle cx="128" cy="128" r="116"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base Medallion -->
+  <circle cx="128" cy="128" r="121" fill="url(#cmpBg)" stroke="url(#cmpBezel)" stroke-width="2.5"/>
+
+  <!-- Precision Calibrated Navigational Ring -->
+  <circle cx="128" cy="128" r="115" fill="none" stroke="#334e68" stroke-width="1.4"/>
+  <circle cx="128" cy="128" r="107" fill="none" stroke="#1d334d" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- 12 Clean Degree Benchmarks -->
+  <polygon points="128,6 133,16 128,23 123,16" fill="url(#cmpGold)"/>
+  <line x1="237" y1="128" x2="246" y2="128" stroke="#cbd5e1" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="128" y1="237" x2="128" y2="246" stroke="#cbd5e1" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="128" x2="19" y2="128" stroke="#cbd5e1" stroke-width="2.5" stroke-linecap="round"/>
+
+  <g stroke="#476582" stroke-width="1.4" stroke-linecap="round">
+    <line x1="184.5" y1="30.1" x2="189.0" y2="22.3"/>
+    <line x1="225.9" y1="71.5" x2="233.7" y2="67.0"/>
+    <line x1="225.9" y1="184.5" x2="233.7" y2="189.0"/>
+    <line x1="184.5" y1="225.9" x2="189.0" y2="233.7"/>
+    <line x1="71.5" y1="225.9" x2="67.0" y2="233.7"/>
+    <line x1="30.1" y1="184.5" x2="22.3" y2="189.0"/>
+    <line x1="30.1" y1="71.5" x2="22.3" y2="67.0"/>
+    <line x1="71.5" y1="30.1" x2="67.0" y2="22.3"/>
+  </g>
+
+  <!-- Masked Interior -->
+  <g clip-path="url(#cmpClip)">
+    <!-- 3D Geosphere Coordinate Parallels -->
+    <g fill="none" stroke="#0ea5e9" opacity="0.22" stroke-width="1.2">
+      <ellipse cx="128" cy="128" rx="88" ry="34"/>
+      <ellipse cx="128" cy="128" rx="34" ry="88"/>
+    </g>
+
+    <!-- Bathymetric Depth Swells -->
+    <g fill="none" opacity="0.35">
+      <path d="M 24,152 C 68,188 188,188 232,152" stroke="#0284c7" stroke-width="2"/>
+      <path d="M 44,176 C 80,206 176,206 212,176" stroke="#0ea5e9" stroke-width="1.6"/>
+      <path d="M 68,202 C 98,222 158,222 188,202" stroke="#38bdf8" stroke-width="1.4"/>
+    </g>
+
+    <!-- NAUTICAL COMPASS ARCHITECTURE -->
+    <!-- Intercardinal Points (NE, SE, SW, NW) -->
+    <polygon points="172,84 128,128 138,106" fill="url(#facetMid)"/>
+    <polygon points="172,84 128,128 150,118" fill="url(#facetAzure)"/>
+    <polygon points="172,172 128,128 150,138" fill="url(#facetNavy)"/>
+    <polygon points="172,172 128,128 138,150" fill="url(#facetMid)"/>
+    <polygon points="84,172 128,128 118,150" fill="url(#facetNavy)"/>
+    <polygon points="84,172 128,128 106,138" fill="url(#facetNavy)"/>
+    <polygon points="84,84 128,128 106,118" fill="url(#facetMid)"/>
+    <polygon points="84,84 128,128 118,106" fill="url(#facetNavy)"/>
+
+    <!-- Major Cardinal Points (N, S, E, W) -->
+    <polygon points="128,220 128,128 112,128" fill="url(#facetNavy)"/>
+    <polygon points="128,220 128,128 144,128" fill="url(#facetMid)"/>
+    <polygon points="36,128 128,128 128,112" fill="url(#facetNavy)"/>
+    <polygon points="36,128 128,128 128,144" fill="url(#facetNavy)"/>
+    <polygon points="220,128 128,128 128,112" fill="url(#facetAzure)"/>
+    <polygon points="220,128 128,128 128,144" fill="url(#facetMid)"/>
+
+    <!-- North Cardinal Point (High-Contrast Hero) -->
+    <polygon points="128,34 128,128 112,128" fill="url(#facetWhite)"/>
+    <polygon points="128,34 128,128 144,128" fill="url(#facetAzure)"/>
+
+    <!-- DYNAMIC OCEAN WAVE SURGING ACROSS COMPASS BASE (SAMUDRA) -->
+    <path d="M 22,148 C 56,126 92,130 120,146 C 150,162 186,156 216,136 C 228,128 236,118 240,110 L 244,196 C 218,228 176,248 128,248 C 80,248 38,228 12,196 Z" fill="url(#facetMid)" opacity="0.92"/>
+
+    <path d="M 18,144 
+             C 54,116 98,122 128,140 
+             C 156,156 188,148 218,124 
+             C 226,118 232,110 236,102 
+             C 236,102 230,120 208,136 
+             C 184,148 154,146 128,132 
+             C 98,118 64,116 30,132 
+             C 24,136 18,140 18,144 Z" 
+          fill="url(#facetWhite)"/>
+
+    <path d="M 44,158 C 76,138 114,144 140,158 C 166,170 196,162 220,142 C 206,166 172,178 142,170 C 114,160 84,158 44,158 Z" fill="#38bdf8" opacity="0.95"/>
+  </g>
+
+  <!-- CENTRAL TELEMETRY TRANSDUCER & OBSERVATION CORE (DRISHTI) -->
+  <g transform="translate(128, 128)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#0ea5e9" stroke-width="1" opacity="0.4"/>
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#f59e0b" stroke-width="1.2" opacity="0.6"/>
+
+    <polygon points="0,-16 3,-4 16,0 3,4 0,16 -3,4 -16,0 -3,-4" fill="url(#cmpGold)"/>
+    <polygon points="0,-9 2,-2 9,0 2,2 0,9 -2,2 -9,0 -2,-2" fill="#ffffff"/>
+
+    <circle cx="0" cy="0" r="3.5" fill="#f59e0b"/>
+    <circle cx="0" cy="0" r="1.5" fill="#ffffff"/>
+  </g>
+</svg>

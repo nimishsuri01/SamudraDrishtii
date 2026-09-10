@@ -1,0 +1,287 @@
+[
+  {
+    "id": "GLIDER-INCOIS-BOB-01",
+    "name": "Slocum Glider Mission: Chennai to Port Blair Transect",
+    "platform_type": "Underwater Ocean Glider (Teledyne Webb Slocum G3)",
+    "organization": "INCOIS Coastal & Ocean Observation Network",
+    "deployment_date": "2026-08-20",
+    "status": "In Mission - Submerged Sawtooth Profile",
+    "battery_level": 78,
+    "max_depth_rated": 1000,
+    "current_lat": 13.65,
+    "current_lon": 82.8,
+    "current_depth": 340,
+    "dive_direction": "ascending",
+    "dive_number": 142,
+    "waypoints": [
+      {
+        "lat": 13.1,
+        "lon": 80.8
+      },
+      {
+        "lat": 13.4,
+        "lon": 81.8
+      },
+      {
+        "lat": 13.65,
+        "lon": 82.8
+      },
+      {
+        "lat": 13.9,
+        "lon": 84.0
+      },
+      {
+        "lat": 14.2,
+        "lon": 85.5
+      }
+    ],
+    "sawtooth_track": [
+      {
+        "lat": 13.1,
+        "lon": 80.8,
+        "depth": 0,
+        "time": "2026-08-20T08:00:00Z"
+      },
+      {
+        "lat": 13.18,
+        "lon": 81.05,
+        "depth": 500,
+        "time": "2026-08-21T02:00:00Z"
+      },
+      {
+        "lat": 13.25,
+        "lon": 81.3,
+        "depth": 1000,
+        "time": "2026-08-22T14:00:00Z"
+      },
+      {
+        "lat": 13.32,
+        "lon": 81.55,
+        "depth": 0,
+        "time": "2026-08-23T20:00:00Z"
+      },
+      {
+        "lat": 13.4,
+        "lon": 81.8,
+        "depth": 500,
+        "time": "2026-08-25T06:00:00Z"
+      },
+      {
+        "lat": 13.48,
+        "lon": 82.1,
+        "depth": 1000,
+        "time": "2026-08-27T18:00:00Z"
+      },
+      {
+        "lat": 13.56,
+        "lon": 82.45,
+        "depth": 0,
+        "time": "2026-08-30T04:00:00Z"
+      },
+      {
+        "lat": 13.65,
+        "lon": 82.8,
+        "depth": 340,
+        "time": "2026-09-04T11:00:00Z"
+      }
+    ],
+    "profile": [
+      {
+        "depth": 0,
+        "temperature": 29.4,
+        "salinity": 33.1,
+        "chlorophyll": 0.45,
+        "turbidity_ntu": 0.3
+      },
+      {
+        "depth": 20,
+        "temperature": 29.2,
+        "salinity": 33.3,
+        "chlorophyll": 0.58,
+        "turbidity_ntu": 0.3
+      },
+      {
+        "depth": 50,
+        "temperature": 28.1,
+        "salinity": 34.2,
+        "chlorophyll": 0.95,
+        "turbidity_ntu": 0.4
+      },
+      {
+        "depth": 75,
+        "temperature": 24.6,
+        "salinity": 34.7,
+        "chlorophyll": 1.25,
+        "turbidity_ntu": 0.5
+      },
+      {
+        "depth": 100,
+        "temperature": 21.3,
+        "salinity": 34.8,
+        "chlorophyll": 0.72,
+        "turbidity_ntu": 0.3
+      },
+      {
+        "depth": 150,
+        "temperature": 16.5,
+        "salinity": 34.9,
+        "chlorophyll": 0.15,
+        "turbidity_ntu": 0.2
+      },
+      {
+        "depth": 200,
+        "temperature": 13.8,
+        "salinity": 35.0,
+        "chlorophyll": 0.05,
+        "turbidity_ntu": 0.1
+      },
+      {
+        "depth": 300,
+        "temperature": 11.2,
+        "salinity": 35.1,
+        "chlorophyll": 0.02,
+        "turbidity_ntu": 0.1
+      },
+      {
+        "depth": 500,
+        "temperature": 8.7,
+        "salinity": 35.0,
+        "chlorophyll": 0.01,
+        "turbidity_ntu": 0.1
+      },
+      {
+        "depth": 750,
+        "temperature": 6.4,
+        "salinity": 34.9,
+        "chlorophyll": 0.0,
+        "turbidity_ntu": 0.1
+      },
+      {
+        "depth": 1000,
+        "temperature": 5.2,
+        "salinity": 34.8,
+        "chlorophyll": 0.0,
+        "turbidity_ntu": 0.1
+      }
+    ]
+  },
+  {
+    "id": "GLIDER-INCOIS-AS-02",
+    "name": "Seaglider Mission: Eastern Arabian Sea Upwelling Study",
+    "platform_type": "Underwater Ocean Glider (Kongsberg Seaglider M1)",
+    "organization": "INCOIS / NIO Joint Expedition",
+    "deployment_date": "2026-08-25",
+    "status": "In Mission - Descending",
+    "battery_level": 84,
+    "max_depth_rated": 1000,
+    "current_lat": 16.1,
+    "current_lon": 71.15,
+    "current_depth": 620,
+    "dive_direction": "descending",
+    "dive_number": 88,
+    "waypoints": [
+      {
+        "lat": 15.2,
+        "lon": 71.8
+      },
+      {
+        "lat": 16.1,
+        "lon": 71.15
+      },
+      {
+        "lat": 16.8,
+        "lon": 70.2
+      }
+    ],
+    "sawtooth_track": [
+      {
+        "lat": 15.2,
+        "lon": 71.8,
+        "depth": 0,
+        "time": "2026-08-25T10:00:00Z"
+      },
+      {
+        "lat": 15.5,
+        "lon": 71.6,
+        "depth": 500,
+        "time": "2026-08-27T04:00:00Z"
+      },
+      {
+        "lat": 15.75,
+        "lon": 71.4,
+        "depth": 1000,
+        "time": "2026-08-29T16:00:00Z"
+      },
+      {
+        "lat": 15.95,
+        "lon": 71.25,
+        "depth": 0,
+        "time": "2026-09-01T22:00:00Z"
+      },
+      {
+        "lat": 16.1,
+        "lon": 71.15,
+        "depth": 620,
+        "time": "2026-09-04T12:00:00Z"
+      }
+    ],
+    "profile": [
+      {
+        "depth": 0,
+        "temperature": 27.9,
+        "salinity": 36.3,
+        "chlorophyll": 1.45,
+        "turbidity_ntu": 0.6
+      },
+      {
+        "depth": 20,
+        "temperature": 27.2,
+        "salinity": 36.3,
+        "chlorophyll": 1.82,
+        "turbidity_ntu": 0.7
+      },
+      {
+        "depth": 50,
+        "temperature": 24.1,
+        "salinity": 36.2,
+        "chlorophyll": 1.95,
+        "turbidity_ntu": 0.5
+      },
+      {
+        "depth": 75,
+        "temperature": 19.8,
+        "salinity": 35.9,
+        "chlorophyll": 0.85,
+        "turbidity_ntu": 0.3
+      },
+      {
+        "depth": 100,
+        "temperature": 17.1,
+        "salinity": 35.8,
+        "chlorophyll": 0.25,
+        "turbidity_ntu": 0.2
+      },
+      {
+        "depth": 200,
+        "temperature": 13.9,
+        "salinity": 35.6,
+        "chlorophyll": 0.05,
+        "turbidity_ntu": 0.1
+      },
+      {
+        "depth": 500,
+        "temperature": 9.4,
+        "salinity": 35.1,
+        "chlorophyll": 0.0,
+        "turbidity_ntu": 0.1
+      },
+      {
+        "depth": 1000,
+        "temperature": 5.8,
+        "salinity": 34.8,
+        "chlorophyll": 0.0,
+        "turbidity_ntu": 0.1
+      }
+    ]
+  }
+]
